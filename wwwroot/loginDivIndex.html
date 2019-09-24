@@ -1,0 +1,18 @@
+﻿<script src="angular.min.js"></script>
+<script>
+
+
+        let myApp = angular.module('myApp', []);
+</script>
+<div style="border:1px solid black; border-radius:4px; padding:3%;" ng-app="myApp" ng-controller="myController">
+
+    <input type="text" class="input-group text-right" placeholder="מספר פלאפון" ng-model="logNumberCoach" />
+    <br />
+
+    <input type="password" class="input-group  text-right" placeholder="סיסמה" ng-model="logPass" />
+    <br />
+ <button class="btn-block" style="margin-top:1%;"  ng-click="loginCoch()">התחבר</button>
+
+
+    <span class="text-center">{{erorrLoginMassege}} </span>
+</div>

@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="he">
+<head>
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="angular.min.js"></script>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <script>
+        let myApp = angular.module('myApp', []);
+    </script>
+
+    <title></title>
+    <link rel="stylesheet" href="homePageStyle.css" type="text/css" />
+    <script src="myController.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="myController" ng-init="isLogin()" ng-show="log">
+    <div id="Bimg" class=""></div>
+    <div class="heder">
+        <img src="logoH.png" class="figure-img" />
+        <button ng-click="logOut()" class="float-right logout ">התנתק</button>
+    </div>
+    <button class="float-right goback" ng-click="moveTo('PageManagementCoach.html')">חזרה לדף הניהול</button>
+
+    <div class="h1 text-center" style="margin:4%;">מדידה חדשה </div>
+    <div class="row">
+       
+
+   </div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="he">
+<head>
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="angular.min.js"></script>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <script>
+        let myApp = angular.module('myApp', []);
+    </script>
+
+    <title></title>
+    <link rel="stylesheet" href="homePageStyle.css" type="text/css" />
+    <script src="myController.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="myController"  ng-init="res()" >
+    <div id="Bimg" class=""></div>
+    <div class="heder">
+        <img src="logoH.png" class="figure-img" />
+        
+    </div>
+   
+    <div class="h1 text-center" style="margin:4%;">תוצאות מדידה</div>
+    <div class="row">
+                   <div class="col-12 col-lg-12">
+                <select ng-model="dataDay" class="float-right" >
+                    <option ng-repeat="n in Measurements" value="{{n.date}}">תאריך {{n.date.split("T")[0]}}    משקל {{ n.weight}} </option>
+
+                </select>
+                <table class="table table-hover text-center" style="background-color:white; opacity:0.7; margin-top:3%;">
+                    <thead>
+                        <tr >
+
+
+                            <th scope="col" class="text-right" ng-repeat="x in measurementDetails   ">{{x.name}}</th>
+                          
+
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr ng-repeat="res in Measurements | filter: dataDay  ">
+
+
+                            <td scope="col">{{res.date.split("T")[0]}}</td>
+                            <td scope="col">{{res.weight}}</td>
+                            <td scope="col">{{res.water}}</td>
+                            <td scope="col">{{res.fat}}</td>
+                            <td scope="col">{{res.muscle}}</td>
+                            <td scope="col">{{res.bodyStructure}}</td>
+                            <td scope="col">{{res.bmr}}</td>
+                            <td scope="col">{{res.bodyAge}}</td>
+                            <td scope="col">{{res.fatBelly}}</td>
+                            <td scope="col">{{res.boneMass}}</td>
+                            <td scope="col">{{res.chest}}</td>
+                            <td scope="col">{{res.stomach}}</td>
+                            <td scope="col">{{res.legs}}</td>
+                            <td scope="col">{{res.shack}}</td>
+                            
+                            
+
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+
+
+        </div>
+</body>
+</html>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>ftp://ftp.site4now.net/site1</_PublishTargetUrl>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAGXDRQ5uBCEO2QNMkrK8qpQAAAAACAAAAAAAQZgAAAAEAACAAAAAVVNr4lJjO6/8ebp96lzof/d2AFZhMUf1WHlDeLl2hWQAAAAAOgAAAAAIAACAAAABcpxNM/Fg5kkwtyfJMHUx8Di5/siMvHgPGJ0Ir2csdjiAAAABnyOGwTaN/j1YK3jHbYRXphhJelLYwB5mrXcWPmovOY0AAAAAuafWkyQdAUQKSPrmn66na5LqT+iR/FmtSl6vsLckci0CjKYhcYwOdhS/jOfwuH7K2zP80haDU+oHD1vjL8/VV</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>05/23/2019 10:58:11</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>05/23/2019 11:03:53</publishTime>
+    </File>
+    <File Include="Connected Services/Application Insights/ConnectedService.json">
+      <publishTime>07/12/2019 15:48:22</publishTime>
+    </File>
+    <File Include="dotnet-aspnet-codegenerator-design.dll">
+      <publishTime>03/02/2019 19:51:38</publishTime>
+    </File>
+    <File Include="finalProject.deps.json">
+      <publishTime>09/24/2019 12:19:50</publishTime>
+    </File>
+    <File Include="finalProject.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="finalProject.pdb">
+      <publishTime>09/24/2019 12:19:43</publishTime>
+    </File>
+    <File Include="finalProject.runtimeconfig.json">
+      <publishTime>09/24/2019 12:19:50</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.CSharp.Workspaces.dll">
+      <publishTime>05/17/2019 17:11:06</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.Workspaces.dll">
+      <publishTime>05/17/2019 17:08:39</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll">
+      <publishTime>03/02/2019 19:51:20</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Core.dll">
+      <publishTime>03/02/2019 19:51:30</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.dll">
+      <publishTime>03/02/2019 19:51:32</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll">
+      <publishTime>03/02/2019 19:51:30</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll">
+      <publishTime>03/02/2019 19:51:26</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll">
+      <publishTime>03/02/2019 19:51:22</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll">
+      <publishTime>03/02/2019 19:51:34</publishTime>
+    </File>
+    <File Include="NuGet.Frameworks.dll">
+      <publishTime>05/17/2019 17:09:44</publishTime>
+    </File>
+    <File Include="System.Composition.AttributedModel.dll">
+      <publishTime>05/17/2019 17:10:13</publishTime>
+    </File>
+    <File Include="System.Composition.Convention.dll">
+      <publishTime>05/17/2019 17:10:14</publishTime>
+    </File>
+    <File Include="System.Composition.Hosting.dll">
+      <publishTime>05/17/2019 17:10:22</publishTime>
+    </File>
+    <File Include="System.Composition.Runtime.dll">
+      <publishTime>05/17/2019 17:10:28</publishTime>
+    </File>
+    <File Include="System.Composition.TypedParts.dll">
+      <publishTime>05/17/2019 17:10:28</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>09/24/2019 12:19:50</publishTime>
+    </File>
+    <File Include="wwwroot/angular.min.js">
+      <publishTime>05/24/2019 08:10:02</publishTime>
+    </File>
+    <File Include="wwwroot/backImg.jpg">
+      <publishTime>05/24/2019 10:11:26</publishTime>
+    </File>
+    <File Include="wwwroot/bootstrap/css/bootstrap-grid.css">
+      <publishTime>05/29/2019 23:34:23</publishTime>
+    </File>
+    <File Include="wwwroot/bootstrap/css/bootstrap-grid.css.map">
+      <publishTime>05/29/2019 23:34:24</publishTime>
+    </File>
+    <File Include="wwwroot/bootstrap/css/bootstrap-grid.min.css">
+      <publishTime>05/29/2019 23:34:22</publishTime>
+    </File>
+    <File Include="wwwroot/bootstrap/css/bootstrap-grid.min.css.map">
+      <publishTime>05/29/2019 23:34:23</publishTime>
+    </File>
+    <File Include="wwwroot/bootstrap/css/bootstrap-reboot - Copy.css">
+      <publishTime>05/29/2019 23:34:22</publishTime>
+    </File>
+    <File Include="wwwroot/bootstrap/css/bootstrap-reboot.css">
+      <publishTime>05/29/2019 23:34:22</publishTime>
+    </File>
+    <File Include="wwwroot/bootstrap/css/bootstrap-reboot.css.map">
+      <publishTime>05/29/2019 23:34:24</publishTime>
+    </File>
+    <File Include="wwwroot/bootstrap/css/bootstrap-reboot.min.css">
+      <publishTime>05/29/2019 23:34:23</publishTime>
+    </File>
+    <File Include="wwwroot/bootstrap/css/bootstrap-reboot.min.css.map">
+      <publishTime>05/29/2019 23:34:23</publishTime>
+    </File>
+    <File Include="wwwroot/bootstrap/css/bootstrap.css">
+      <publishTime>05/29/2019 23:34:23</publishTime>
+    </File>
+    <File Include="wwwroot/bootstrap/css/bootstrap.css.map">
+      <publishTime>05/29/2019 23:34:23</publishTime>
+    </File>
+    <File Include="wwwroot/bootstrap/css/bootstrap.min.css">
+      <publishTime>05/29/2019 23:34:24</publishTime>
+    </File>
+    <File Include="wwwroot/bootstrap/css/bootstrap.min.css.map">
+      <publishTime>05/29/2019 23:34:24</publishTime>
+    </File>
+    <File Include="wwwroot/bootstrap/js/bootstrap.bundle.js">
+      <publishTime>05/29/2019 23:34:19</publishTime>
+    </File>
+    <File Include="wwwroot/bootstrap/js/bootstrap.bundle.js.map">
+      <publishTime>05/29/2019 23:34:20</publishTime>
+    </File>
+    <File Include="wwwroot/bootstrap/js/bootstrap.bundle.min.js">
+      <publishTime>05/29/2019 23:34:22</publishTime>
+    </File>
+    <File Include="wwwroot/bootstrap/js/bootstrap.bundle.min.js.map">
+      <publishTime>05/29/2019 23:34:21</publishTime>
+    </File>
+    <File Include="wwwroot/bootstrap/js/bootstrap.js">
+      <publishTime>05/29/2019 23:34:20</publishTime>
+    </File>
+    <File Include="wwwroot/bootstrap/js/bootstrap.js.map">
+      <publishTime>05/29/2019 23:34:21</publishTime>
+    </File>
+    <File Include="wwwroot/bootstrap/js/bootstrap.min.js">
+      <publishTime>05/29/2019 23:34:21</publishTime>
+    </File>
+    <File Include="wwwroot/bootstrap/js/bootstrap.min.js.map">
+      <publishTime>05/29/2019 23:34:20</publishTime>
+    </File>
+    <File Include="wwwroot/ConfirmUsers.html">
+      <publishTime>06/17/2019 22:26:24</publishTime>
+    </File>
+    <File Include="wwwroot/custemer.html">
+      <publishTime>07/02/2019 02:04:20</publishTime>
+    </File>
+    <File Include="wwwroot/homeImg.jpg">
+      <publishTime>05/24/2019 08:21:21</publishTime>
+    </File>
+    <File Include="wwwroot/homePageStyle.css">
+      <publishTime>06/06/2019 18:52:52</publishTime>
+    </File>
+    <File Include="wwwroot/index.html">
+      <publishTime>06/11/2019 00:15:22</publishTime>
+    </File>
+    <File Include="wwwroot/listPerson.jpg">
+      <publishTime>05/31/2019 17:32:58</publishTime>
+    </File>
+    <File Include="wwwroot/listUserOfThisCoach.html">
+      <publishTime>07/02/2019 00:48:55</publishTime>
+    </File>
+    <File Include="wwwroot/loginDivIndex.html">
+      <publishTime>06/21/2019 09:03:09</publishTime>
+    </File>
+    <File Include="wwwroot/logoH.png">
+      <publishTime>04/08/2019 09:49:15</publishTime>
+    </File>
+    <File Include="wwwroot/measurement.html">
+      <publishTime>07/02/2019 00:30:27</publishTime>
+    </File>
+    <File Include="wwwroot/myController.js">
+      <publishTime>09/24/2019 12:17:53</publishTime>
+    </File>
+    <File Include="wwwroot/newMeasurement.html">
+      <publishTime>06/11/2019 08:50:29</publishTime>
+    </File>
+    <File Include="wwwroot/NewMeasurement.jpg">
+      <publishTime>05/31/2019 17:49:49</publishTime>
+    </File>
+    <File Include="wwwroot/newTraining.html">
+      <publishTime>06/07/2019 14:47:20</publishTime>
+    </File>
+    <File Include="wwwroot/PageManagementCoach.html">
+      <publishTime>06/14/2019 06:33:38</publishTime>
+    </File>
+    <File Include="wwwroot/profileUser.html">
+      <publishTime>06/11/2019 10:07:08</publishTime>
+    </File>
+    <File Include="wwwroot/SearchForUser.jpg">
+      <publishTime>05/31/2019 17:54:55</publishTime>
+    </File>
+    <File Include="wwwroot/serchUser.html">
+      <publishTime>06/11/2019 10:49:26</publishTime>
+    </File>
+    <File Include="wwwroot/singupDivIndex.html">
+      <publishTime>06/06/2019 16:59:57</publishTime>
+    </File>
+    <File Include="wwwroot/singupUser.jpg">
+      <publishTime>05/31/2019 17:57:08</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

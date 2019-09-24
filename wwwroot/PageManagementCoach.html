@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="he">
+<head>
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="angular.min.js"></script>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <script>
+        let myApp = angular.module('myApp', []);
+    </script>
+
+    <title></title>
+    <link rel="stylesheet" href="homePageStyle.css" type="text/css" />
+    <script src="myController.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="myController" ng-init="isLogin()"  ng-show="log" >
+    <div id="Bimg" class=""></div>
+    <div class="heder">
+        <img src="logoH.png" class="figure-img" />
+        <button ng-click="logOut()" class="float-right logout ">התנתק</button>
+    </div>
+    <div  class="h1 text-center" style="padding-bottom:4%; padding-top:2%;">דף ניהול למאמן</div>
+    <button class="goback btn-outline-success" ng-click="moveTo('ConfirmUsers.html')" ng-show="status">אישור מאמנים חדשים</button>
+    <div class="row"   ng-init="confirmStatus()">
+
+        <div class="col-lg-3 col-6" style="padding-bottom:7%;">
+            <a href="" ng-click="moveTo('newMeasurement.html')">
+                <div class="card card-link " style="width: 95%; opacity:0.7;">
+                    <img src="NewMeasurement.jpg" class="card-img-top" alt="מדידה חדשה">
+                    <div class="card-body">
+                        <p class="card-text text-right">מדידה חדשה</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+
+        <div class="col-lg-3 col-6" style="padding-bottom:7%;">
+            <a href="" ng-click="moveTo('listUserOfThisCoach.html')">
+                <div class="card card-link" style="width: 95%;  opacity:0.7;">
+                    <img src="listPerson.jpg" class="card-img-top" alt="רשימת מתאמנים">
+                    <div class="card-body">
+                        <p class="card-text text-right">רשימת מתאמנים ומעקב</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-3 col-6" style="padding-bottom:7%;">
+            <a href="" ng-click="moveTo('serchUser.html')">
+                <div class="card  card-link" style="width: 95%;  opacity:0.7;">
+                    <img src="SearchForUser.jpg" class="card-img-top" alt="חיפוש מתאמן">
+                    <div class="card-body">
+                        <p class="card-text text-right">חיפוש מתאמן</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-3 col-6" style="padding-bottom:7%;">
+            <a href="" ng-click="moveTo('newTraining.html')">
+                <div class="card  card-link" style="width: 95%;  opacity:0.7; ">
+                    <img src="singupUser.jpg" class="card-img-top" alt="מתאמן חדש">
+                    <div class="card-body">
+                        <p class="card-text text-right">הוספה של מתאמן חדש</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+    </div>
+</body>
+</html>

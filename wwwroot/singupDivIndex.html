@@ -1,0 +1,14 @@
+﻿<script src="angular.min.js"></script>
+<script>
+        let myApp = angular.module('myApp', []);
+</script>
+<div style="border:1px solid black; border-radius:4px; padding:3%;" ng-app="myApp" ng-controller="myController">
+    <input type="text" class="input-group text-right" placeholder="מספר פלאפון" ng-model="singupNum" />
+    <br />
+    <input type="text" class="input-group text-right" placeholder="שם מלא" ng-model="singupFullName" />
+    <br />
+    <input type="password" class="input-group  text-right" placeholder="סיסמה" ng-model="singupPass" />
+    <br />
+    <button class="btn-block" style="margin-top:1%;" ng-click="singupBTN()">הירשם</button>
+    <span class="text-center">{{erorrSingupMassege}} </span>
+</div>
