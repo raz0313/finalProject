@@ -14,7 +14,7 @@ namespace finalProject
                 return null;
             return dr.GetString(i);
         }
-        public static string connString = @"Data Source = SQL5045.site4now.net; Initial Catalog = DB_A4E11B_yosef03131; User Id = DB_A4E11B_yosef03131_admin; Password=levi0313;";
+        public static string connString = ******
         public static void pullFromDB(string sql , Action<SqlCommand> configureCommand , Action<SqlDataReader> doWithEachRow)
         {
             using(SqlConnection conn = new SqlConnection(connString))
